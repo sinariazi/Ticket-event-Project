@@ -1,5 +1,9 @@
-import Styles from "./Header.module.scss";
+import styles from "./Header.module.scss";
 
 export function Header() {
-  return <p className={Styles.test}>hi there</p>;
+  return (
+    <div className={styles.test}>
+      <p>hi there</p>
+    </div>
+  );
 }
